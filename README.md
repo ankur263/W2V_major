@@ -1,4 +1,5 @@
 # W2V_major
+Implemented word2vec CBOW model using torch and lua. 
 # Readings
 https://docs.google.com/spreadsheets/d/1OyW6sr164m7zp6amO9yjII5xhlwbXjbdTMWadc3OZdM/edit?usp=sharing
 # Screen-Shots of results
