@@ -80,7 +80,7 @@ function Word2Vec:build_datastructures(corpus)
     -- self.w2v:add(nn.Sigmoid())
     self.decay = (self.min_lr-self.lr)/(self.total_count*self.window)
     --modified version for CBOW implementation
-    self.model = nn.Sequential();
+    self.model = nn.Sequential();                           -- model description
     self.word_vecs = nn.LookupTable(self.vocab_size, self.dim);
     self.model:add( self.word_vecs ); 
     self.model:add( nn.Reshape(self.numwords*self.dim));  
